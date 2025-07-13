@@ -12,7 +12,7 @@ int main()
 {
     int a = 1;
     int b = 2;
-    int* b_pointer;
+    int* b_pointer = &b;
     
     cout<< "a==============" << endl;
     cout<< a << endl;
